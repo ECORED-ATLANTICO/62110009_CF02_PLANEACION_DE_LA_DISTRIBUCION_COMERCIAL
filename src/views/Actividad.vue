@@ -2,8 +2,6 @@
   .curso-main-container.pb-3
     BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      // Para cuestionario usar: <ActividadController :cuestionario="cuestionario"/>
-      // Para parrafo usar: <ActividadController :parrafo="parrafo"/>
       #Actividad                
       <ActividadController :cuestionario="cuestionario"/>
   
@@ -19,489 +17,715 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Fundamentos del plan de la distribución comercial',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> analizar los conceptos fundamentales de la planeación de la distribución comercial para comprender su importancia en la comercialización de productos y la cobertura del mercado.<br><br>Lea la pregunta de cada ítem y seleccione la respuesta correcta.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_aprobado: '¡EXCELENTE!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
+      mensaje_aprobado:
+        '¡Excelente! felicitaciones, ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
+      mensaje_reprobado:
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
       preguntas: [
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            'Una empresa presenta frecuentes retrasos en las entregas y un incremento en los costos de transporte. ¿Cuál sería la primera acción que debería implementar para optimizar su proceso de distribución?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto:
+                'Incrementar el número de proveedores sin analizar las rutas de distribución.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
-              esCorrecta: true,
+                'Aumentar el inventario de todos los productos sin considerar la demanda.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
-              esCorrecta: false,
+              texto:
+                'Analizar el proceso logístico para identificar oportunidades de mejora en el transporte, almacenamiento y distribución.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto:
+                'Sustituir todos los canales de distribución por ventas directas al consumidor.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            'El análisis del proceso logístico permite identificar oportunidades para optimizar el transporte, el almacenamiento y la distribución.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+            'Revise nuevamente el contenido del componente formativo y analice cómo la logística contribuye a optimizar los procesos de distribución comercial.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            'La logística tiene como propósito principal dentro de una organización:',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Auto</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Text</em>',
+              texto:
+                'Coordinar el flujo eficiente de productos, información y recursos desde el origen hasta el cliente.',
               esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Para borrar conexiones.',
-              esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+                'Diseñar campañas de promoción para incrementar las ventas.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto:
+                'Determinar los precios de comercialización de los productos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
+              texto:
+                'Elaborar estudios financieros sobre la rentabilidad empresarial.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'La logística integra los procesos necesarios para que los productos lleguen oportunamente al cliente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo e identifique el propósito de la logística en la cadena de suministro.',
+        },
+        {
+          id: 3,
+          texto:
+            'Una empresa implementa un sistema para recibir productos defectuosos, repararlos y reincorporarlos al mercado. Esta práctica corresponde a:',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Distribución intensiva.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Gestión de inventarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Abastecimiento estratégico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Logística inversa.',
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'La logística inversa administra el retorno de productos para su recuperación, reutilización o disposición final.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo y reconozca las funciones de la logística inversa.',
         },
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Cuál de las siguientes acciones favorece una adecuada gestión de inventarios?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'Mantener inventarios ilimitados para evitar faltantes.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Board</em>',
+              texto:
+                'Controlar las existencias de acuerdo con la demanda y la rotación de los productos.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto:
+                'Eliminar los registros de entrada y salida de mercancías.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Almacenar todos los productos sin clasificación.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Una adecuada gestión de inventarios permite mantener el equilibrio entre disponibilidad y costos.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo y analice la importancia del control de inventarios.',
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto:
+            'El indicador de rotación de inventarios permite a una organización conocer principalmente:',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
+                'La frecuencia con la que los productos son vendidos y repuestos durante un período determinado.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto: 'El número de empleados asignados al almacén.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto: 'El costo de fabricación de cada producto.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'La participación de mercado de la empresa.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'La rotación de inventarios facilita el control de existencias y la toma de decisiones sobre abastecimiento.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo y estudie los indicadores relacionados con la gestión de inventarios.',
         },
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            'Una organización utiliza un software de georreferenciación para analizar la ubicación de sus clientes. ¿Cuál es el principal beneficio de esta herramienta?',
+          imagen: '@/assets/actividad/imagen6.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto: 'Diseñar nuevos productos para el mercado.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
-              esCorrecta: true,
+              texto: 'Incrementar el número de proveedores de la organización.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
-              esCorrecta: false,
+              texto:
+                'Optimizar la planeación de rutas y mejorar la cobertura de distribución.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'Reducir los costos de producción de la empresa.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'El software de georreferenciación facilita la planeación de rutas y mejora la eficiencia de la distribución.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo y analice las aplicaciones de las herramientas de georreferenciación.',
         },
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            'Antes de elaborar un plan de distribución, la organización debe:',
+          imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto: 'Definir el diseño de la publicidad comercial.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
+              texto:
+                'Analizar las necesidades del mercado, la capacidad logística y los objetivos comerciales.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto: 'Modificar la estructura organizacional de la empresa.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto: 'Incrementar el número de intermediarios.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Correcto! El análisis previo permite formular un plan de distribución coherente con las necesidades de la organización y del mercado.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo y estudie las etapas para elaborar un plan de distribución.',
         },
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+            'Una empresa desea disminuir el impacto ambiental generado por las devoluciones de productos. ¿Qué estrategia debería fortalecer?',
+          imagen: '@/assets/actividad/imagen8.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Distribución exclusiva.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Incremento del inventario de seguridad.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Ventas por comercio electrónico.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto:
+                'Procesos de logística inversa para recuperar, reutilizar o reciclar los productos.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'La logística inversa favorece el aprovechamiento de los productos retornados y contribuye a la sostenibilidad.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo y analice los beneficios de la logística inversa.',
         },
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            'Un plan de distribución contribuye al cumplimiento de los objetivos comerciales porque:',
+          imagen: '@/assets/actividad/imagen9.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                'Organiza las acciones necesarias para que los productos lleguen al mercado de manera eficiente y oportuna.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Sustituye las actividades de producción de la empresa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Elimina la necesidad de controlar inventarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Reemplaza las estrategias de mercadeo de la organización.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'El plan de distribución coordina recursos y actividades para garantizar la disponibilidad de los productos.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo y estudie la finalidad del plan de distribución.',
         },
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            'Al diseñar un plan de distribución, ¿qué criterio resulta más importante para seleccionar una estrategia adecuada?',
+          imagen: '@/assets/actividad/imagen10.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'El color de la imagen corporativa.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'La cantidad de competidores presentes en el mercado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Las características del producto, las necesidades del cliente y la capacidad logística de la organización.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'El número de empleados del área administrativa.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'La selección de la estrategia de distribución debe responder a las características del producto, del mercado y de la capacidad logística de la organización.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo e identifique los criterios para diseñar un plan de distribución.',
         },
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
+            'Una empresa desea reducir el tiempo de entrega a sus clientes sin incrementar significativamente los costos operativos. ¿Qué decisión contribuiría mejor a este objetivo?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Aumentar el inventario de todos los productos sin realizar un análisis previo.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Eliminar el control de las existencias para agilizar los despachos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Incrementar el número de proveedores sin modificar la red de distribución.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Optimizar las rutas de distribución y coordinar eficientemente el transporte y el almacenamiento.',
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'La optimización de rutas y la coordinación logística mejoran los tiempos de entrega y favorecen la eficiencia operativa.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo y analice cómo la logística optimiza la distribución comercial.',
         },
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            'La logística inversa aporta valor a una organización porque permite:',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Incrementar el número de intermediarios comerciales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Gestionar el retorno de productos para su recuperación, reutilización o disposición adecuada.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Sustituir completamente la distribución tradicional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir el número de clientes atendidos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'La logística inversa optimiza el manejo de devoluciones y promueve el aprovechamiento responsable de los productos retornados.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo y estudie las funciones de la logística inversa.',
+        },
+        {
+          id: 13,
+          texto:
+            '¿Cuál es la principal utilidad de un software de georreferenciación en la distribución comercial?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Diseñar campañas publicitarias digitales.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Calcular automáticamente el precio de los productos.',
               esCorrecta: false,
             },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
-          barajarRespuestas: true,
-          opciones: [
             {
-              id: 'a',
-              texto: 'Verdadero',
+              id: 'c',
+              texto:
+                'Analizar la ubicación geográfica para optimizar rutas, cobertura y zonas de atención.',
               esCorrecta: true,
             },
             {
-              id: 'b',
-              texto: 'Falso',
+              id: 'd',
+              texto: 'Elaborar los estados financieros de la organización.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Estas herramientas facilitan la planeación territorial y optimizan las operaciones de distribución.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo y estudie las aplicaciones de la georreferenciación.',
         },
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            'Durante la elaboración de un plan de distribución, ¿qué aspecto resulta indispensable para garantizar su viabilidad?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Definir únicamente el presupuesto destinado a publicidad.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Incrementar el número de productos comercializados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Eliminar el seguimiento de los inventarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Establecer objetivos, recursos, responsables y acciones para ejecutar la distribución.',
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Un plan de distribución debe definir los recursos y acciones necesarios para cumplir los objetivos comerciales.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo y estudie la estructura del plan de distribución.',
         },
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Qué beneficio obtiene una organización al mantener un adecuado control de inventarios?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Incrementar el tiempo de almacenamiento de todos los productos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Disminuir los riesgos de desabastecimiento y exceso de existencias.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Reducir el número de clientes atendidos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar completamente los costos logísticos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'El control de inventarios facilita la disponibilidad de productos y optimiza los costos asociados al almacenamiento.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo y analice la importancia del control de existencias.',
+        },
+        {
+          id: 16,
+          texto:
+            'Una empresa busca ampliar su cobertura comercial sin afectar el nivel de servicio al cliente. ¿Qué acción resulta más conveniente?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Eliminar los centros de distribución existentes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Reducir el inventario sin analizar la demanda.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Diseñar una estrategia de distribución acorde con las características del mercado y la capacidad logística.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Comercializar todos los productos mediante un único canal.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'La estrategia de distribución debe responder a las condiciones del mercado y a la capacidad operativa de la organización.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo y analice las estrategias de distribución comercial.',
+        },
+        {
+          id: 17,
+          texto:
+            'Al evaluar un plan de distribución, ¿qué indicador permite verificar si los pedidos están llegando oportunamente a los clientes?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Número de campañas publicitarias ejecutadas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Cantidad de proveedores vinculados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Participación de mercado de la empresa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Cumplimiento de los tiempos de entrega establecidos.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'El cumplimiento de los tiempos de entrega es un indicador clave para evaluar la eficacia del proceso de distribución.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo y analice los criterios utilizados para evaluar un plan de distribución.',
+        },
+        {
+          id: 18,
+          texto:
+            'Una empresa identifica que algunos productos permanecen almacenados durante largos periodos sin ser comercializados. ¿Qué indicador debería analizar inicialmente?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La rotación de inventarios.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'La participación de mercado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El presupuesto de publicidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El número de proveedores contratados.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-      ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
-      mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
+          mensaje_correcto:
+            'La rotación de inventarios permite evaluar la frecuencia con que los productos salen del almacén y son repuestos.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo y analice los indicadores utilizados para administrar inventarios.',
         },
         {
-          id: 2,
+          id: 19,
           texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
+            'Una organización revisa periódicamente los resultados de su plan de distribución para realizar ajustes cuando sea necesario. ¿Qué etapa del proceso está fortaleciendo principalmente?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La identificación del mercado objetivo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El seguimiento y la evaluación del plan de distribución.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'El diseño del empaque del producto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La selección del nombre comercial de la empresa.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'El seguimiento y la evaluación permiten verificar el cumplimiento de los objetivos e implementar acciones de mejora continua.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo y estudie las etapas del plan de distribución para fortalecer su comprensión.',
         },
         {
-          id: 3,
+          id: 20,
           texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
+            'Una organización implementó un nuevo plan de distribución y, después de seis meses, verificó una disminución en los tiempos de entrega, un mejor control de inventarios y un aumento en la satisfacción de los clientes. ¿Qué conclusión puede establecerse sobre el plan implementado?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Los resultados obtenidos dependen exclusivamente del incremento de inventarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'El plan de distribución contribuyó al mejoramiento de la eficiencia logística y del servicio al cliente.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'La satisfacción del cliente no tiene relación con la distribución de los productos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Los indicadores obtenidos hacen innecesario continuar evaluando el plan de distribución.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Un plan de distribución bien diseñado mejora la eficiencia logística, fortalece el nivel de servicio y contribuye al cumplimiento de los objetivos comerciales.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo y analice cómo la evaluación del plan de distribución permite mejorar continuamente los procesos logísticos.',
         },
       ],
     },
   }),
 }
 </script>
+
+<style lang="sass"></style>
