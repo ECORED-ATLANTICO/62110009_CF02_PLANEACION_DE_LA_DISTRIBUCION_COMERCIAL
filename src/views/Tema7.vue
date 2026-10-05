@@ -94,66 +94,67 @@
               p.mb-0 En la práctica, empresas como Éxito estructuran sus planes de distribución integrando centros de distribución, rutas logísticas y control de inventarios, mientras que Mercado Libre utiliza indicadores para evaluar la eficiencia de sus entregas.
 
 
+    .bg-full-width.bg-fondo-1
 
-    separador
+      separador
 
-    #t_7_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 7.3 Etapas
+      #t_7_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 7.3 Etapas
+
+        
+      p.mb-4 El desarrollo del plan de distribución implica una serie de etapas que permiten su diseño, ejecución y control.
+
+      .row.mb-5.justify-content-center.align-items-center
+        .col-lg-12
+          .titulo-sexto.color-acento-contenido.mb-3
+            h5.text-bold.mb-2 Tabla 5.
+            span Etapas del plan de distribución
+          .tabla-a.tb-custom.mb-0
+            table
+              thead
+                tr
+                  th Etapa
+                  th Descripción
+                  th Aplicación
+              tbody
+                tr
+                  td Análisis
+                  td Evaluación del mercado, demanda y condiciones logísticas.
+                  td Identificación de necesidades del cliente.
+                tr
+                  td Planeación
+                  td Definición de estrategias, canales y recursos.
+                  td Diseño del plan de distribución.
+                tr
+                  td Implementación
+                  td Ejecución de las acciones definidas.
+                  td Operación logística y distribución.
+                tr
+                  td Control
+                  td Seguimiento y medición de resultados.
+                  td Evaluación de indicadores.
+                tr
+                  td Mejora
+                  td Ajustes al plan según resultados obtenidos.
+                  td Optimización continua.
+
+      .container
+        .row.mb-lg-4.mb-4.justify-content-center.align-items-center
+          .col-lg-10.col-md-12
+            .row.align-items-center.bg-fondo-04.p-4
+              .col-lg-auto.order-1
+                img.d-none.d-lg-flex(src="@/assets/curso/tema1/img03.svg", style="max-width: 150px").mx-auto
+              .col-lg.order-2
+                p.mb-0 En el contexto actual, empresas como Zara ajustan constantemente sus planes de distribución para responder a la demanda del mercado, mientras que Amazon optimiza sus procesos mediante análisis continuo de datos logísticos.
+
+      separador
+
+      #t_7_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 7.4 Ejemplo
 
       
-    p.mb-4 El desarrollo del plan de distribución implica una serie de etapas que permiten su diseño, ejecución y control.
-
-    .row.mb-5.justify-content-center.align-items-center
-      .col-lg-12
-        .titulo-sexto.color-acento-contenido.mb-3
-          h5.text-bold.mb-2 Tabla 5.
-          span Etapas del plan de distribución
-        .tabla-a.tb-custom.mb-0
-          table
-            thead
-              tr
-                th Etapa
-                th Descripción
-                th Aplicación
-            tbody
-              tr
-                td Análisis
-                td Evaluación del mercado, demanda y condiciones logísticas.
-                td Identificación de necesidades del cliente.
-              tr
-                td Planeación
-                td Definición de estrategias, canales y recursos.
-                td Diseño del plan de distribución.
-              tr
-                td Implementación
-                td Ejecución de las acciones definidas.
-                td Operación logística y distribución.
-              tr
-                td Control
-                td Seguimiento y medición de resultados.
-                td Evaluación de indicadores.
-              tr
-                td Mejora
-                td Ajustes al plan según resultados obtenidos.
-                td Optimización continua.
-
     .container
-      .row.mb-lg-4.mb-4.justify-content-center.align-items-center
-        .col-lg-10.col-md-12
-          .row.align-items-center.bg-fondo-04.p-4
-            .col-lg-auto.order-1
-              img.d-none.d-lg-flex(src="@/assets/curso/tema1/img03.svg", style="max-width: 150px").mx-auto
-            .col-lg.order-2
-              p.mb-0 En el contexto actual, empresas como Zara ajustan constantemente sus planes de distribución para responder a la demanda del mercado, mientras que Amazon optimiza sus procesos mediante análisis continuo de datos logísticos.
-
-    separador
-
-    #t_7_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 7.4 Ejemplo
-
-      
-    .container
-      .row.mb-lg-4.mb-5.justify-content-center.align-items-center.bg-color-10
+      .row.mb-lg-5.mb-5.justify-content-center.align-items-center.bg-color-10
         .col-lg-5.col-md-12.mb-4.mb-lg-0.order-1.order-lg-2.p-0
           figure
             img(src="@/assets/curso/tema7/img04.png", data-aos="zoom-in").mx-auto
@@ -172,7 +173,6 @@
             .col-12.col-lg-auto.text-center
               a.boton.color-acento-botones(:href="require_src('plan_distribucion.pdf')" target="_blank")
                 span Ir al recurso
-                //- i.fas.fa-link
 
     .row.align-items-center(data-aos="fade-right")
       .col-lg-10.mx-auto
@@ -181,14 +181,12 @@
             .col-6.col-sm-4.col-md-3.col-lg-2.mb-3.mb-lg-0.mx-auto.mx-lg-0.text-center.order-1.order-lg-3
               img(src="@/assets/curso/tema4/img10.svg")
             .col-12.col-lg.mb-2.mb-lg-0.order-2.order-lg-1
-              //- h4.mb-2.mx-lg-0.text-lg-start Aplicación de escritorio con todas las funciones para ArcGIS
               p.mb-1 Para profundizar en la planificación de la distribución dentro del marketing se recomienda leer:
               p.mb-1 En este libro, el plan de distribución no aparece como un capítulo con ese nombre exacto, sino integrado dentro de: Capítulo: Canales de distribución, páginas aproximadas: 344 - 400 
               p.mb-0 Ahí se encuentran: diseño de canales, estrategias de distribución, selección de intermediarios, cobertura del mercado
             .col-12.col-lg-auto.text-center.order-3.order-lg-2
               a.boton.color-acento-botones(:href="'https://campus.eco.unlpam.edu.ar/pluginfile.php/154367/mod_resource/content/1/Marketing%20Kotler-Armstrong.pdf'" target="_blank")
                 span Ir al recurso
-                //- i.fas.fa-link
 
     .container
       .row.justify-content-center.align-items-center.mb-4

@@ -8,7 +8,7 @@
           i.fas.fa-info
       h1 Introducción
 
-    .row.mb-lg-4.mb-5.justify-content-center.align-items-center
+    .row.mb-lg-4.mb-4.justify-content-center.align-items-center
       .col-lg-3.col-md-8.mb-4.mb-lg-0.order-1.order-lg-1
         figure
           img(src="@/assets/curso/intro/img01.png", data-aos="zoom-in").mx-auto
