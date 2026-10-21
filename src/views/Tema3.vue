@@ -14,7 +14,7 @@
             .col-lg-auto.d-none.d-lg-flex
               img(src="@/assets/curso/tema3/img01.svg").mx-auto
             .col-lg
-              p.mb-0 En la distribución moderna, las empresas han transitado de modelos tradicionales a esquemas más flexibles y multicanal. La integración de canales físicos y digitales permite ofrecer experiencias omnicanal, donde el cliente puede interactuar mediante diversos puntos de contacto, como tiendas físicas, plataformas en línea, aplicaciones móviles y redes sociales.
+              p.mb-0 En la gestión comercial, la forma en que una empresa decide llevar sus productos al mercado responde a decisiones estratégicas que buscan maximizar la cobertura, optimizar costos y garantizar la satisfacción del cliente. Las estrategias de distribución permiten definir el alcance, la intensidad y los canales mediante los cuales se comercializan los productos, adaptándose a las condiciones del mercado y al comportamiento del consumidor.
 
 
     separador
@@ -110,7 +110,7 @@
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-4
           h5.text-bold.mb-2 Figura 1.
-          span Clasificación de los canales de distribución
+          span Clasificación de las estrategias de distribución
         img.mb-0(data-aos="fade-up", src="@/assets/curso/tema3/img07.png", alt="La figura muestra las diferentes formas de organizar la distribución de productos desde la empresa hasta el consumidor. Mediante ejemplos visuales, muestra cómo las organizaciones pueden comercializar directamente o incorporar intermediarios, coordinar distintas etapas de la distribución y establecer relaciones de colaboración. También muestra el uso de diversos medios de venta y atención, (multicanal y omnicanal) los cuales pueden funcionar de manera independiente o integrarse para facilitar una experiencia continua y coherente para el cliente.").mx-auto.d-none.d-lg-block
         img.mb-0(data-aos="fade-up", src="@/assets/curso/tema3/img08.png", alt="La figura muestra las diferentes formas de organizar la distribución de productos desde la empresa hasta el consumidor. Mediante ejemplos visuales, muestra cómo las organizaciones pueden comercializar directamente o incorporar intermediarios, coordinar distintas etapas de la distribución y establecer relaciones de colaboración. También muestra el uso de diversos medios de venta y atención, (multicanal y omnicanal) los cuales pueden funcionar de manera independiente o integrarse para facilitar una experiencia continua y coherente para el cliente.").mx-auto.d-lg-none
 

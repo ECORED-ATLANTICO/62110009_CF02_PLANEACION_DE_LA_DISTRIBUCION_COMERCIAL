@@ -21,7 +21,7 @@
 
     .bloque-texto-g.bloque-texto-g--inverso.bg-color-08.p-4.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require_src('@/assets/curso/tema5/img01.png')})`}"
+        :style="{'background-image': `url(${require_src('@/assets/curso/tema6/img01.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 El software para georreferenciación es una herramienta tecnológica que permite identificar, registrar y analizar la ubicación geográfica de elementos como clientes, puntos de venta, rutas y centros de distribución mediante coordenadas o mapas digitales.

@@ -99,7 +99,7 @@
       separador
     
     #t_4_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.4 Métodos
+      h2 4.4 Método
 
     
     .container
@@ -116,7 +116,7 @@
     .row.mb-4.mb-lg-5.justify-content-center.align-items-center
       .col-lg-9.mb-4.mb-lg-0
         .titulo-sexto.color-acento-contenido.mb-4
-          h5.text-bold.mb-2 Figura 3.
+          h5.text-bold.mb-2 Figura 2.
           span Métodos de gestión de inventarios
         img.mb-0(data-aos="fade-up", src="@/assets/curso/tema4/img07.png", alt="La figura presenta diferentes métodos utilizados para organizar, valorar y controlar los inventarios dentro de una empresa. Mediante situaciones representativas de bodegas y establecimientos comerciales, muestra cómo los productos pueden gestionarse considerando su orden de ingreso y salida, su costo promedio o su importancia económica. La información permite comprender que cada método responde a necesidades específicas de administración y facilita la toma de decisiones relacionadas con la disponibilidad, rotación, valoración y control de las existencias.").mx-auto.d-none.d-lg-block
         img.mb-0(data-aos="fade-up", src="@/assets/curso/tema4/img08.png", alt="La figura presenta diferentes métodos utilizados para organizar, valorar y controlar los inventarios dentro de una empresa. Mediante situaciones representativas de bodegas y establecimientos comerciales, muestra cómo los productos pueden gestionarse considerando su orden de ingreso y salida, su costo promedio o su importancia económica. La información permite comprender que cada método responde a necesidades específicas de administración y facilita la toma de decisiones relacionadas con la disponibilidad, rotación, valoración y control de las existencias.").mx-auto.d-lg-none

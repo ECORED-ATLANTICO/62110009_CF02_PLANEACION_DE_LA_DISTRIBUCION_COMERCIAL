@@ -171,7 +171,7 @@
               h4.mb-2.mx-lg-0.text-lg-start Plan de distribución
               p.mb-0 A manera de ejemplo aplicado, se presenta un caso práctico que permite evidenciar la aplicación de los conceptos y estrategias abordados en el tema para la elaboración de un plan de distribución.
             .col-12.col-lg-auto.text-center
-              a.boton.color-acento-botones(:href="require_src('plan_distribucion.pdf')" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Anexo_01_Plan_De_distribucion.pdf')" target="_blank")
                 span Ir al recurso
 
     .row.align-items-center(data-aos="fade-right")
@@ -185,7 +185,7 @@
               p.mb-1 En este libro, el plan de distribución no aparece como un capítulo con ese nombre exacto, sino integrado dentro de: Capítulo: Canales de distribución, páginas aproximadas: 344 - 400 
               p.mb-0 Ahí se encuentran: diseño de canales, estrategias de distribución, selección de intermediarios, cobertura del mercado
             .col-12.col-lg-auto.text-center.order-3.order-lg-2
-              a.boton.color-acento-botones(:href="'https://campus.eco.unlpam.edu.ar/pluginfile.php/154367/mod_resource/content/1/Marketing%20Kotler-Armstrong.pdf'" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Anexo_02_Marketing_Kotler_Armstrong_CFA.pdf')" target="_blank")
                 span Ir al recurso
 
     .container
@@ -198,7 +198,7 @@
             .col-lg-6.order-1.order-md-1.order-lg-2.p-4.p-lg-4
               p(data-aos="fade-left").mb-4 Ir al pódcast:
               TarjetaAudio.color-acento-contenido.bg-color-white.mb-3(
-                texto="“Charlas que venden” tema: “Planeando la distribución”"
+                texto="Cómo diseñar un plan de distribución que responda al mercado"
                 tiempo
                 :audio="require_src('@/assets/curso/podcast/podcast2.mp3')"
               )

@@ -203,7 +203,7 @@
             .col-lg-6.order-1.order-md-1.order-lg-1.p-4.p-lg-4
               p(data-aos="fade-left").mb-4 Ir al pódcast:
               TarjetaAudio.color-acento-contenido.bg-color-white.mb-3(
-                texto="La logística y la distribución hoy"
+                texto="Logística inversa: recuperar valor y reducir impactos"
                 tiempo
                 :audio="require_src('@/assets/curso/podcast/podcast1.mp3')"
               )
