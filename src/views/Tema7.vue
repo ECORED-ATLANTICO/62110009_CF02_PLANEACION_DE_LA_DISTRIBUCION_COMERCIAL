@@ -169,9 +169,10 @@
               img(src="@/assets/curso/tema7/img05.svg")
             .col-12.col-lg.mb-2.mb-lg-0
               h4.mb-2.mx-lg-0.text-lg-start Plan de distribución
-              p.mb-0 A manera de ejemplo aplicado, se presenta un caso práctico que permite evidenciar la aplicación de los conceptos y estrategias abordados en el tema para la elaboración de un plan de distribución.
+              p.mb-1 A manera de ejemplo aplicado, se presenta un caso práctico que permite evidenciar la aplicación de los conceptos y estrategias abordados en el tema para la elaboración de un plan de distribución.
+              p.mb-0 Para ampliar la información sobre este tema, consulte:
             .col-12.col-lg-auto.text-center
-              a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Anexo_01_Plan_De_distribucion.pdf')" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Anexo_01_Plan_De_Distribucion.pdf')" target="_blank")
                 span Ir al recurso
 
     .row.align-items-center(data-aos="fade-right")
@@ -181,9 +182,9 @@
             .col-6.col-sm-4.col-md-3.col-lg-2.mb-3.mb-lg-0.mx-auto.mx-lg-0.text-center.order-1.order-lg-3
               img(src="@/assets/curso/tema4/img10.svg")
             .col-12.col-lg.mb-2.mb-lg-0.order-2.order-lg-1
-              p.mb-1 Para profundizar en la planificación de la distribución dentro del marketing se recomienda leer:
-              p.mb-1 En este libro, el plan de distribución no aparece como un capítulo con ese nombre exacto, sino integrado dentro de: Capítulo: Canales de distribución, páginas aproximadas: 344 - 400 
-              p.mb-0 Ahí se encuentran: diseño de canales, estrategias de distribución, selección de intermediarios, cobertura del mercado
+              p.mb-1 Para profundizar en la planificación de la distribución dentro del <em>marketing</em> se recomienda consultar:
+              p.mb-1 En este libro, el plan de distribución no aparece como un capítulo con ese nombre exacto, sino integrado dentro de: Capítulo: Canales de distribución, páginas aproximadas: 344 - 400.
+              p.mb-0 Ahí se encuentran: diseño de canales, estrategias de distribución, selección de intermediarios, cobertura del mercado.
             .col-12.col-lg-auto.text-center.order-3.order-lg-2
               a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Anexo_02_Marketing_Kotler_Armstrong_CFA.pdf')" target="_blank")
                 span Ir al recurso
@@ -196,7 +197,7 @@
               figure
                 img(src="@/assets/curso/tema2/img07.png", data-aos="fade-right").w-50.mx-auto
             .col-lg-6.order-1.order-md-1.order-lg-2.p-4.p-lg-4
-              p(data-aos="fade-left").mb-4 Ir al pódcast:
+              p(data-aos="fade-left").mb-4 A continuación, lo invitamos a consultar el siguiente pódcast:
               TarjetaAudio.color-acento-contenido.bg-color-white.mb-3(
                 texto="Cómo diseñar un plan de distribución que responda al mercado"
                 tiempo

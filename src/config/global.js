@@ -143,7 +143,7 @@ export default {
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Stock de inventarios (existencias)',
+        titulo: '<em>Stock</em> de inventarios (existencias)',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -166,7 +166,7 @@ export default {
       {
         nombreRuta: 'tema6',
         numero: '6',
-        titulo: 'Software para georreferenciación',
+        titulo: '<em>Software</em> para georreferenciación',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -332,12 +332,14 @@ export default {
         'Indicador que mide la frecuencia con la que los productos son vendidos y repuestos durante un periodo determinado.',
     },
     {
-      termino: 'Software de georreferenciación',
+      termino: '<em>Software</em> de georreferenciación',
+      terminoHtml: '<em>Software</em> de georreferenciación',
       significado:
         'Herramienta informática utilizada para analizar información espacial y apoyar la planeación de rutas y cobertura comercial.',
     },
     {
-      termino: 'Stock de existencias',
+      termino: '<em>Stock</em> de existencias',
+      terminoHtml: '<em>Stock</em> de existencias',
       significado:
         'Cantidad de productos disponibles para atender la demanda y evitar desabastecimientos o excesos de inventario.',
     },
@@ -368,15 +370,15 @@ export default {
     },
     {
       referencia:
-        'Kotler, P., & Armstrong, G. (2017). Fundamentos de marketing (13.ª ed.). Pearson Educación.',
+        'Kotler, P., & Armstrong, G. (2017). Fundamentos de <em>marketing</em> (13.ª ed.). Pearson Educación.',
     },
     {
       referencia:
-        'Kotler, P., & Keller, K. L. (2016). Dirección de marketing (15.ª ed.). Pearson Educación.',
+        'Kotler, P., & Keller, K. L. (2016). Dirección de <em>marketing</em> (15.ª ed.). Pearson Educación.',
     },
     {
       referencia:
-        'Levy, M., & Weitz, B. (2012). Administración de ventas al detal (retail) (8.ª ed.). McGraw-Hill.',
+        'Levy, M., & Weitz, B. (2012). Administración de ventas al detal (<em>retail</em>) (8.ª ed.). McGraw-Hill.',
     },
     {
       referencia:
@@ -407,7 +409,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional G06. Responsable Ecosistema de Recursos Educativos Digitales',
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -422,12 +424,12 @@ export default {
       autores: [
         {
           nombre: 'Mario Morales Cabrera',
-          cargo: 'Experto Temático Logística',
+          cargo: 'Experto temático logística',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Jair Coll Gallardo',
-          cargo: 'Experto Temático Comercio y servicio',
+          cargo: 'Experto temático comercio y servicio',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],

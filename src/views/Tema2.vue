@@ -201,7 +201,7 @@
               figure
                 img(src="@/assets/curso/tema2/img07.png", data-aos="fade-right").w-50.mx-auto
             .col-lg-6.order-1.order-md-1.order-lg-1.p-4.p-lg-4
-              p(data-aos="fade-left").mb-4 Ir al pódcast:
+              p(data-aos="fade-left").mb-4 A continuación, lo invitamos a consultar el siguiente pódcast:
               TarjetaAudio.color-acento-contenido.bg-color-white.mb-3(
                 texto="Logística inversa: recuperar valor y reducir impactos"
                 tiempo

@@ -11,7 +11,7 @@
       img(src="@/assets/curso/tema1/img01.png", alt="")
     .row.justify-content-center.align-items-center.z-2.mb-4
       .col-lg-10(data-aos="fade-right")
-        p.banner-text En la gestión de la distribución comercial, la logística cumple un papel fundamental al coordinar los procesos que permiten el flujo eficiente de productos desde el origen hasta el cliente. Su adecuada planificación y ejecución impacta directamente en los costos, tiempos de entrega y nivel de servicio, convirtiéndose en un factor clave de competitividad empresarial.
+        p.banner-text En la gestión de la distribución comercial, la logística cumple un papel fundamental al coordinar los procesos que permiten el flujo eficiente de productos desde el origen hasta el cliente. Su adecuada planificación y ejecución impactan directamente en los costos, tiempos de entrega y nivel de servicio, convirtiéndose en un factor clave de competitividad empresarial.
 
 
     separador
@@ -75,7 +75,7 @@
       .row.mb-lg-4.mb-3.justify-content-center.align-items-center
         .col-lg-10.col-md-12
           .cajon.bg-color-c1.p-4
-            p.mb-0 En la práctica, Mercado Libre gestiona funciones logísticas mediante centros de fulfillment, mientras que Éxito coordina almacenamiento, inventarios y distribución para abastecer sus puntos de venta.
+            p.mb-0 En la práctica, Mercado Libre gestiona funciones logísticas mediante centros de <em>fulfillment</em>, mientras que Éxito coordina almacenamiento, inventarios y distribución para abastecer sus puntos de venta.
 
       separador
 
@@ -194,7 +194,7 @@
             .col-6.col-sm-4.col-md-3.col-lg-2.mb-3.mb-lg-0.mx-auto.mx-lg-0.text-center
               img(src="@/assets/curso/tema1/img12.svg")
             .col-12.col-lg.mb-2.mb-lg-0
-              h4.mb-2.mx-lg-0.text-lg-start ¿Qué es la Gestión Logística? Significado, Importancia y Estrategias / Tendencia Logística
+              h4.mb-2.mx-lg-0.text-lg-start ¿Qué es la gestión logística? Significado, importancia y estrategias / tendencia logística
               p.mb-0 Para comprender la logística aplicada en empresas reales ir al siguiente enlace:
             .col-12.col-lg-auto.text-center
               a.boton.color-acento-botones(:href="'https://www.youtube.com/watch?v=SCK26hVa1AM'" target="_blank")

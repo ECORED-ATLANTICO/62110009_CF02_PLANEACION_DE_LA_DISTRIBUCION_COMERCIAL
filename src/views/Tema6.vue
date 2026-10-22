@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 6
-      h1 Software para georreferenciación
+      h1 <em>Software</em> para georreferenciación
 
     .container
       .row.mb-lg-4.mb-4.justify-content-center.align-items-center
@@ -24,9 +24,9 @@
         :style="{'background-image': `url(${require_src('@/assets/curso/tema6/img01.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 El software para georreferenciación es una herramienta tecnológica que permite identificar, registrar y analizar la ubicación geográfica de elementos como clientes, puntos de venta, rutas y centros de distribución mediante coordenadas o mapas digitales.
+        p.mb-0 El <em>software</em> para georreferenciación es una herramienta tecnológica que permite identificar, registrar y analizar la ubicación geográfica de elementos como clientes, puntos de venta, rutas y centros de distribución mediante coordenadas o mapas digitales.
 
-    p.mb-4 Este tipo de software facilita la visualización espacial de la información, permitiendo optimizar procesos logísticos, mejorar la cobertura del mercado y reducir costos asociados al transporte. Además, integra datos en tiempo real que apoyan la toma de decisiones estratégicas en la distribución.
+    p.mb-4 Este tipo de <em>software</em> facilita la visualización espacial de la información, permitiendo optimizar procesos logísticos, mejorar la cobertura del mercado y reducir costos asociados al transporte. Además, integra datos en tiempo real que apoyan la toma de decisiones estratégicas en la distribución.
 
     
     .container
@@ -44,14 +44,14 @@
     #t_6_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 6.2 Procedimiento de uso
 
-    p.mb-4 El uso del software de georreferenciación implica una serie de pasos que permiten aprovechar sus funcionalidades dentro de la gestión logística y comercial.
+    p.mb-4 El uso del <em>software</em> de georreferenciación implica una serie de pasos que permiten aprovechar sus funcionalidades dentro de la gestión logística y comercial.
 
     .bg-full-width.bg-fondo-1
       .row.mb-4.justify-content-center.align-items-center
         .col-lg-12
           .titulo-sexto.color-acento-contenido.mb-3
             h5.text-bold.mb-2 Tabla 3.
-            span Procedimiento de uso del software de georreferenciación
+            span Procedimiento de uso del <em>software</em> de georreferenciación
           .tabla-a.tb-custom.mb-0
             table
               caption Nota. Adaptada de Ballou, R. H. (2004); Christopher, M. (2016); y ESRI (2023).
@@ -83,7 +83,7 @@
                   td Diseño de rutas eficientes, expansión de cobertura y mejora de la eficiencia operativa.
 
 
-      p.mb-5 En la práctica, empresas de mensajería como Servientrega utilizan software de georreferenciación para planificar rutas eficientes, mientras que plataformas como Mercado Libre optimizan sus entregas mediante análisis geográficos que reducen tiempos y costos de distribución.
+      p.mb-5 En la práctica, empresas de mensajería como Servientrega utilizan <em>software</em> de georreferenciación para planificar rutas eficientes, mientras que plataformas como Mercado Libre optimizan sus entregas mediante análisis geográficos que reducen tiempos y costos de distribución.
 
 
       .row.align-items-center(data-aos="fade-right")
@@ -111,7 +111,7 @@
                 img(src="@/assets/curso/tema4/img10.svg")
               .col-12.col-lg.mb-2.mb-lg-0
                 h4.mb-2.mx-lg-0.text-lg-start Aplicación de escritorio con todas las funciones para ArcGIS
-                p.mb-2 Para fortalecer la comprensión del uso de software de georreferenciación en la gestión de la distribución, se recomienda explorar el siguiente recurso:
+                p.mb-2 Para fortalecer la comprensión del uso de <em>software</em> de georreferenciación en la gestión de la distribución, se recomienda explorar el siguiente recurso:
                 p.mb-0 Este sitio presenta la herramienta ArcGIS Pro, la cual permite analizar datos geográficos, visualizar información espacial y optimizar procesos logísticos mediante la planificación de rutas y la gestión territorial. Se invita al aprendiz a navegar el sitio web para identificar sus principales funcionalidades, reconociendo su aplicación en la toma de decisiones dentro de la distribución comercial.
               .col-12.col-lg-auto.text-center
                 a.boton.color-acento-botones(:href="'https://www.esri.com/es-es/arcgis/products/arcgis-pro/overview'" target="_blank")

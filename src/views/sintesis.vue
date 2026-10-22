@@ -5,7 +5,7 @@
 
     .row.mb-4.justify-content-center.align-items-center
       .col-lg-12
-        p.mb-0(data-aos="fade-right") El componente formativo Diseño del plan de distribución aborda la logística y la logística inversa, considerando sus funciones, actores, ciclo y beneficios dentro de la cadena de suministro. Asimismo, desarrolla las estrategias de distribución, la gestión de inventarios, la rotación, los métodos de control y el stock de existencias, junto con el uso de software para georreferenciación. Finalmente, estudia el plan de distribución, su concepto, estructura y etapas, proporcionando los conocimientos necesarios para diseñar, implementar y evaluar estrategias de distribución comercial en diferentes contextos empresariales.
+        p.mb-0(data-aos="fade-right") El componente formativo Diseño del plan de distribución aborda la logística y la logística inversa, considerando sus funciones, actores, ciclo y beneficios dentro de la cadena de suministro. Asimismo, desarrolla las estrategias de distribución, la gestión de inventarios, la rotación, los métodos de control y el <em>stock</em> de existencias, junto con el uso de <em>software</em> para georreferenciación. Finalmente, estudia el plan de distribución, su concepto, estructura y etapas, proporcionando los conocimientos necesarios para diseñar, implementar y evaluar estrategias de distribución comercial en diferentes contextos empresariales.
 
 
     .row.justify-content-center

@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
-      h1 Stock de inventarios (existencias)
+      h1 <em>Stock</em> de inventarios (existencias)
 
 
 
@@ -14,7 +14,7 @@
         :style="{'background-image': `url(${require_src('@/assets/curso/tema5/img01.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Dentro de la gestión de la distribución comercial, mantener niveles adecuados de productos disponibles es fundamental para garantizar la continuidad de las operaciones y la atención oportuna de la demanda. El stock de inventarios permite a las empresas responder de manera eficiente a las necesidades del mercado, evitando tanto el desabastecimiento como el exceso de productos.
+        p.mb-0 Dentro de la gestión de la distribución comercial, mantener niveles adecuados de productos disponibles es fundamental para garantizar la continuidad de las operaciones y la atención oportuna de la demanda. El <em>stock</em> de inventarios permite a las empresas responder de manera eficiente a las necesidades del mercado, evitando tanto el desabastecimiento como el exceso de productos.
 
     separador
     
@@ -26,12 +26,12 @@
         figure
           img(src="@/assets/curso/tema5/img02.png", data-aos="zoom-in").mx-auto
       .col-lg-9.order-2.order-lg-1.mb-0.mb-lg-0
-        p.mb-3(data-aos="fade-right") El stock de inventarios, también denominado existencias, corresponde a la cantidad de productos que una empresa mantiene disponibles para satisfacer la demanda de sus clientes.
+        p.mb-3(data-aos="fade-right") El <em>stock</em> de inventarios, también denominado existencias, corresponde a la cantidad de productos que una empresa mantiene disponibles para satisfacer la demanda de sus clientes.
         
         .bg-fondo-01.br-15.mb-3.p-4
-          p.mb-0 Este concepto está directamente relacionado con la gestión del inventario, ya que implica definir niveles óptimos que permitan garantizar disponibilidad sin generar costos innecesarios. Un adecuado control del stock permite equilibrar la oferta y la demanda, evitando pérdidas por faltantes o por acumulación de productos.
+          p.mb-0 Este concepto está directamente relacionado con la gestión del inventario, ya que implica definir niveles óptimos que permitan garantizar disponibilidad sin generar costos innecesarios. Un adecuado control del <em>stock</em> permite equilibrar la oferta y la demanda, evitando pérdidas por faltantes o por acumulación de productos.
 
-        p.mb-0 En el contexto empresarial, D1 y Ara manejan niveles de stock ajustados para garantizar alta rotación y reducción de costos, mientras que empresas como Amazon utilizan sistemas automatizados para mantener niveles de stock óptimos según la demanda.
+        p.mb-0 En el contexto empresarial, D1 y Ara manejan niveles de <em>stock</em> ajustados para garantizar alta rotación y reducción de costos, mientras que empresas como Amazon utilizan sistemas automatizados para mantener niveles de <em>stock</em> óptimos según la demanda.
 
     separador
     
@@ -43,9 +43,9 @@
       .col-lg-auto.d-none.d-lg-flex
         img(src="@/assets/curso/tema5/img03.svg").mx-auto
       .col-lg
-        p.mb-0 El manejo adecuado del stock de inventarios contribuye a garantizar la disponibilidad de los productos y a mejorar el desempeño de las operaciones logísticas. Una administración eficiente de las existencias favorece la atención de la demanda, optimiza los recursos y fortalece la rentabilidad de la organización.
+        p.mb-0 El manejo adecuado del <em>stock</em> de inventarios contribuye a garantizar la disponibilidad de los productos y a mejorar el desempeño de las operaciones logísticas. Una administración eficiente de las existencias favorece la atención de la demanda, optimiza los recursos y fortalece la rentabilidad de la organización.
 
-    p.mb-5 Entre los principales beneficios del stock de inventarios se destacan:
+    p.mb-5 Entre los principales beneficios del <em>stock</em> de inventarios se destacan:
 
     
     .bg-full-width.bg-fondo-1
@@ -80,7 +80,7 @@
               .col-lg-auto.order-2
                 img.d-none.d-lg-flex(src="@/assets/curso/tema1/img03.svg", style="max-width: 150px").mx-auto
               .col-lg.order-1
-                p.mb-0 En la práctica, supermercados como Éxito mantienen niveles de stock que aseguran disponibilidad constante, mientras que empresas de comercio electrónico ajustan sus existencias en función de la demanda proyectada.
+                p.mb-0 En la práctica, supermercados como Éxito mantienen niveles de <em>stock</em> que aseguran disponibilidad constante, mientras que empresas de comercio electrónico ajustan sus existencias en función de la demanda proyectada.
 
       separador
       
@@ -94,9 +94,9 @@
           figure
             img(src="@/assets/curso/tema5/img05.png", data-aos="zoom-in").mx-auto
         .col-lg-7.order-2.order-lg-1.mb-0.mb-lg-0.p-4
-          p.mb-0(data-aos="fade-right") La ubicación del stock de inventarios corresponde a los espacios donde se almacenan los productos dentro de la cadena de distribución. Una ubicación adecuada facilita el abastecimiento, reduce los tiempos de entrega y contribuye a mejorar la eficiencia de las operaciones logísticas.
+          p.mb-0(data-aos="fade-right") La ubicación del <em>stock</em> de inventarios corresponde a los espacios donde se almacenan los productos dentro de la cadena de distribución. Una ubicación adecuada facilita el abastecimiento, reduce los tiempos de entrega y contribuye a mejorar la eficiencia de las operaciones logísticas.
 
-    p.mb-4 Las principales ubicaciones del stock de inventarios son:
+    p.mb-4 Las principales ubicaciones del <em>stock</em> de inventarios son:
     
     .bg-full-width.bg-fondo-1
       .bg-full-width.bg-fondo-05
@@ -159,8 +159,8 @@
               .col-6.col-sm-4.col-md-3.col-lg-2.mb-3.mb-lg-0.mx-auto.mx-lg-0.text-center
                 img(src="@/assets/curso/tema1/img12.svg")
               .col-12.col-lg.mb-2.mb-lg-0
-                h4.mb-2.mx-lg-0.text-lg-start ¿Qué es el stock de una empresa?
-                p.mb-0 Para comprender el manejo del stock de inventarios en empresas ir al siguiente video:
+                h4.mb-2.mx-lg-0.text-lg-start ¿Qué es el <em>stock</em> de una empresa?
+                p.mb-0 Para comprender el manejo del <em>stock</em> de inventarios en empresas ir al siguiente video:
               .col-12.col-lg-auto.text-center
                 a.boton.color-acento-botones(:href="'https://www.youtube.com/watch?v=FQhWLNrN92E'" target="_blank")
                   span Ir al recurso

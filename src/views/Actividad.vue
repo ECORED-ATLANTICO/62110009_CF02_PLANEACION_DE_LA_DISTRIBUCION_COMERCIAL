@@ -208,7 +208,7 @@ export default {
         {
           id: 6,
           texto:
-            'Una organización utiliza un software de georreferenciación para analizar la ubicación de sus clientes. ¿Cuál es el principal beneficio de esta herramienta?',
+            'Una organización utiliza un <em>software</em> de georreferenciación para analizar la ubicación de sus clientes. ¿Cuál es el principal beneficio de esta herramienta?',
           imagen: '@/assets/actividad/imagen6.png',
           barajarRespuestas: true,
           opciones: [
@@ -235,7 +235,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'El software de georreferenciación facilita la planeación de rutas y mejora la eficiencia de la distribución.',
+            'El <em>software</em> de georreferenciación facilita la planeación de rutas y mejora la eficiencia de la distribución.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo y analice las aplicaciones de las herramientas de georreferenciación.',
         },
@@ -269,7 +269,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Correcto! El análisis previo permite formular un plan de distribución coherente con las necesidades de la organización y del mercado.',
+            'El análisis previo permite formular un plan de distribución coherente con las necesidades de la organización y del mercado.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo y estudie las etapas para elaborar un plan de distribución.',
         },
@@ -450,7 +450,7 @@ export default {
         {
           id: 13,
           texto:
-            '¿Cuál es la principal utilidad de un software de georreferenciación en la distribución comercial?',
+            '¿Cuál es la principal utilidad de un <em>software</em> de georreferenciación en la distribución comercial?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
